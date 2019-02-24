@@ -4,8 +4,21 @@
   "description": "Simple Express studying assigment.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakobbaumgartner/NodeJSExpress_Assigment1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jakobbaumgartner/NodeJSExpress_Assigment1/issues"
+  },
+  "homepage": "https://github.com/jakobbaumgartner/NodeJSExpress_Assigment1#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10"
+  }
 }
